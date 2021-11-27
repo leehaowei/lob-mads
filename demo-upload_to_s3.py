@@ -2,15 +2,15 @@ import boto3
 import os
 
 # credentials
-access_key = 'AKIAQKRU654FZAVYQS4U'
-access_secret = '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'
+access_key = 'access_key'
+access_secret = 'access_secret+OnPwYBWy'
 bucket_name = 'lob-upload-hwl'
 
 # create client instance
 client_s3 = boto3.client(
     's3',
-    aws_access_key_id = access_key,
-    aws_secret_access_key = access_secret
+    aws_access_key_id=access_key,
+    aws_secret_access_key=access_secret
 )
 
 # upload files to S3
@@ -21,4 +21,4 @@ for file in os.listdir(data_file_folder):
         os.path.join(data_file_folder, file),
         bucket_name,
         file
-)
+    )
