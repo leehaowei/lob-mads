@@ -3,7 +3,7 @@ import os
 
 # credentials
 access_key = 'access_key'
-access_secret = 'access_secret+OnPwYBWy'
+access_secret = 'access_secret'
 bucket_name = 'lob-upload-hwl'
 
 # create client instance
