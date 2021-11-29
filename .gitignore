@@ -3,3 +3,5 @@ upload_to_s3.py
 lambda-keys-copy.py
 lambda-test.py
 .DS_Store
+case_study.db
+*.pdf
