@@ -1,0 +1,12 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "https://lob-destination-hwl.s3.eu-central-1.amazonaws.com/open_item_list.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "textqualifier": "\""
+    }
+}
